@@ -1,0 +1,12 @@
+image: py2-caffe
+resources:
+  memory: 100M
+assets:
+- googlenet_finetune_web_car.caffemodel
+input_space: 
+  image: image
+output_space: 
+  model: str
+main:
+  type: python
+  entrypoint: serve.py::predict

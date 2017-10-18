@@ -1,0 +1,6 @@
+*.caffemodel
+__pycache__
+.DS_Store
+*.pyc
+*.jpg
+.ropeproject
